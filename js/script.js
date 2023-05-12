@@ -126,39 +126,39 @@ $(document).ready(function () {
         displayTicketDetails(list);
         console.log(list.tickets)
         
-    //   if (inputtedName === "Adams Project"){
-    //   $("#image1").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime)
-    //   }
-    // else if (inputtedName === "Alaadin"){
-    //   $("#image2").show("<li>"  + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //   }
-    //   else if (inputtedName === "Ant Man"){
-    //   $("#image3").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //   }
-    //    else if (inputtedName === "Black Adams"){
-    //   $("#image4").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //   }
-    //    else if (inputtedName === "Captain Marvel"){
-    //   $("#image5").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //   }
-    //   else if (inputtedName === "Enola"){
-    //     $("#image6").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //     }
-    //   else if (inputtedName === "Extraction 2"){
-    //         $("#image7").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //     }
-    //     else if (inputtedName === "Fantastic Beast"){
-    //   $("#image8").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //   }
-    //   else if (inputtedName === "Megan"){
-    //     $("#image9").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
-    //     }
-    //   else if (inputtedName === "Shazam Fury of the Gods"){
-    //         $("#image10").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime  + "</li>")
-    //     }
-    //     else if (inputtedName === "Wakanda Forever"){
-    //         $("#image11").show("<li>" + inputtedName + " " + inputtedNoOfSeat  + " " + inputtedTime + "</li>")
-    //         }   
+      if (inputtedName === "Adams Project"){
+      $("#image1").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime)
+      }
+    else if (inputtedName === "Alaadin"){
+      $("#image2").show("<li>"  + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+      }
+      else if (inputtedName === "Ant Man"){
+      $("#image3").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+      }
+       else if (inputtedName === "Black Adams"){
+      $("#image4").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+      }
+       else if (inputtedName === "Captain Marvel"){
+      $("#image5").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+      }
+      else if (inputtedName === "Enola"){
+        $("#image6").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+        }
+      else if (inputtedName === "Extraction 2"){
+            $("#image7").show("<li>" + inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+        }
+        else if (inputtedName === "Fantastic Beast"){
+      $("#image8").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+      }
+      else if (inputtedName === "Megan"){
+        $("#image9").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime + "</li>")
+        }
+      else if (inputtedName === "Shazam Fury of the Gods"){
+            $("#image10").show("<li>"+ inputtedName + "" + inputtedNoOfSeat  + "" + inputtedTime  + "</li>")
+        }
+        else if (inputtedName === "Wakanda Forever"){
+            $("#image11").show("<li>" + inputtedName + " " + inputtedNoOfSeat  + " " + inputtedTime + "</li>")
+            }   
 
 
     });
