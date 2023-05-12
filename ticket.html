@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Movie ticket</title>
+</head>
+<body>
+  <div id="navbar">
+    <img src="image2/m-logo.png" id="logo">
+    
+    <nav>
+      <li><a href="index.html">Home</a></li>
+        <li><a href="">Gallery</a></li>
+       <li><a href="">About us</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Contact us</a></li>
+       
+    </nav>
+    <button id="signup" class="btn btn-danger">Sign UP</button>
+    </div>
+
+
+    <div id="carouselExampleControls2" class="carousel slide col-xm-12 col-sm-12" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/alaadin.jpg" class="item">
+        </div>
+        <div class="carousel-item">
+          <img src="image2/black adam.jpg" class="item">
+        </div>
+        <div class="carousel-item">
+        <img src="image2/ant man.jpg" class="item">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><br>
+<hr><br>
+ 
+
+
+
+
+
+
+<div id="ticketform">
+
+
+  <!-- <div id="carouselExampleControls2" class="carousel slide col-xm-12 col-sm-12" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image2/fast x.png" class="item">
+      </div>
+      <div class="carousel-item">
+        <img src="image2/Black-Panther-Wakanda-Forever-1140x760.webp" class="item">
+      </div>
+      <div class="carousel-item">
+      <img src="image2/avater2.jpg" class="item">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br> -->
+
+
+
+<h3 id="movie">Book a Movie Ticket :</h3>
+  <img src="image2/Cinema.png" id="cinema">
+
+  <form id="form">
+     <div class="form-group">
+                      <label for="name">Movie Name:
+                  <select name="name" class="form-control"  id="name">
+                    <option value="Movie Name">Select Movie Name</option>
+                  <option value="Adams Project">Adams Project</option>
+                  <option value="Alaadin">Alaadin</option>
+                  <option value="Ant Man">Ant Man</option>
+                   <option value="Black Adams">Black Adams</option>
+                   <option value="Captain Marvel">Captain Marvel</option>
+                   <option value="Enola">Enola</option>
+                   <option value="Extraction 2">Extraction 2</option>
+                   <option value="Fantastic Beast">Fantastic Beast</option>
+                   <option value="Megan">Megan</option>
+                   <option value="Shazam Fury of the Gods">Shazam Fury of the Gods</option>
+                   <option value="wakanda">Wakanda Forever</option>                 
+                  
+                </select>
+              </label>      
+                      </div><br>
+
+                      <div class="form-group">
+                       <label for="seat">No of Seats:
+                  <select name="seat" class="form-control"  id="seat">
+                    <option value="No Of Seat">Select No Of Seat</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+                  
+                </select>
+              </label>      
+                      </div><br>
+
+                      <div class="form-group">
+                       <label for="time">Movie Time:
+                  <select name="time" class="form-control"  id="time">
+                    <option value="Movie Time">Select Movie Time</option>
+                  <option value="Morning">Morning</option>
+                  <option value="Afternoon">Afternoon</option>
+                  <option value="Evening">Evening</option>
+                
+                </select>
+              </label>      
+                  </div><br>
+    <button class="btn btn-danger" type="submit" id="buy"> Buy Ticket !</button>
+                    </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="output">
+<h3 id="movie">Customer's Tickets :</h3><br>
+
+<h2 id="ticket">Ticket:</h2>
+<ul id="tickets">
+</ul>
+
+<div id="images">
+  <img src="image2/adams project.jpg" id="image1" class="images">
+  <img src="img/alaadin.jpg" id="image2" class="images">
+  <img src="img/antman.jpg" id="image3" class="images">
+  <img src="img/black adams.jpg" id="image4" class="images">
+  <img src="img/captain marvel.jpg" id="image5" class="images">
+  <img src="image2/enola.jpg" id="image6" class="images">
+  <img src="image2/extraction 2.jpg" id="image7" class="images">
+  <img src="img/dumbledore.jpg" id="image8" class="images">
+  <img src="img/megan.jpg" id="image9" class="images">
+  <img src="img/shazam.jpg" id="image10" class="images">
+  <img src="img/wakanda1.jpg" id="image11" class="images">
+
+</div>
+
+
+
+<div id="moviesdetails">
+  <p>Movie Name: <span class="name"></span></p>
+  <p>No of Seat: <span class="seat"></span></p>
+  <p>Movie Time: <span class="time"></span></p>
+  <p>Movie Price: <span class="price"></span></p>
+  <div id="buttons">
+  </div>
+</div><br>
+ <button class="btn btn-danger" id="again">Book Again!</button>
+
+</body>
+</html>
